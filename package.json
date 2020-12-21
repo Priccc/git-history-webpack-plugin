@@ -1,5 +1,5 @@
 {
-  "name": "git-history-webpack-plugin",
+  "name": "g",
   "version": "1.0.0",
   "description": "after build dist bunndle, generate txt with git history",
   "main": "./src/index.js",

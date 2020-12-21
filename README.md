@@ -32,7 +32,7 @@ commit branch:: master
 commit hash:: 4e758f10b6aea0bdc3dcae16f78ac3359429926 
 ::commit history::
 commit 4e758f10b6aea0bdc3dcae16f78ac3359429926
-Author: priccc <zleipriccc@gmail.com>
+Author: master <master@xxx.com>
 Date:   Tue Dec 8 17:22:37 2020 +0800
 
     init

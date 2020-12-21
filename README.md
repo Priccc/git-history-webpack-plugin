@@ -1,6 +1,10 @@
 # git-history-webpack-plugin
 
 ```
+npm i @priccc/git-history-webpack-plugin
+```
+
+```
 <!-- webpack.config.js -->
 plubins: [
   new GitVersion({

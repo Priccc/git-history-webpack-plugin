@@ -1,5 +1,5 @@
 {
-  "name": "g",
+  "name": "@priccc/git-history-webpack-plugin",
   "version": "1.0.0",
   "description": "after build dist bunndle, generate txt with git history",
   "main": "./src/index.js",
@@ -12,5 +12,13 @@
     "build"
   ],
   "author": "priccc",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priccc/git-history-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Priccc/git-history-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Priccc/git-history-webpack-plugin#readme"
 }

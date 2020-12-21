@@ -6,10 +6,14 @@ npm i @priccc/git-history-webpack-plugin
 
 ```
 <!-- webpack.config.js -->
+const GitHistory = require('@priccc/git-history-webpack-plugin')
+
+...
+
 plubins: [
   new GitVersion({
     floderName: 'dist',
-    fileName: '测试版本信息'
+    txtName: '测试版本信息'
   }),
 ]
 ```

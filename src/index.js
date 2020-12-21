@@ -5,7 +5,7 @@ const execGitCmd = (cmd) => execSync(cmd).toString().replace(/\n$/,'')
 const pluginName = 'gitHistory'
 const defaultOptions = {
   floderName: 'dist',
-  fileName: 'Git版本信息'
+  txtName: 'Git版本信息'
 }
 
 class GitHistory {
@@ -17,10 +17,10 @@ class GitHistory {
   }
 
   apply (compiler) {
-    const { floderName, fileName } = this.options
+    const { floderName, txtName } = this.options
 
     compiler.hooks.afterEmit.tap(pluginName, (compilation) => {
-      var logger = fs.createWriteStream(`./${floderName}/${fileName}.txt`)
+      var logger = fs.createWriteStream(`./${floderName}/${txtName}.txt`)
 
       let date = new Date().toLocaleString()
       let user = execGitCmd('git config user.name')

@@ -1,6 +1,6 @@
 {
   "name": "@priccc/git-history-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "after build dist bunndle, generate txt with git history",
   "main": "./src/index.js",
   "scripts": {

@@ -33,6 +33,8 @@ class GitHistory {
       logger.write(`commit branch:: ${gitBranch} \n`)
       logger.write(`commit hash:: ${gitID} \n`)
       logger.write(`::commit history::\n${info}`)
+
+      logger.end()
     })
   }
 }
